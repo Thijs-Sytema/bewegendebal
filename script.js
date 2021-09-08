@@ -1,7 +1,7 @@
 var x, y, vx, vy;
 
 function setup() {
-  createCanvas(400,400);
+  createCanvas(400,500);
 
   x = 0;
   y = 200;
@@ -16,7 +16,7 @@ function draw() {
   x = x + vx;
   y = y + vy;
 
-  if(y <= 0 || y > 400) {
+  if(y <= 0 || y > 500) {
     vy = vy * -1;
   }
 
