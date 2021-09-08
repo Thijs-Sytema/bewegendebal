@@ -14,7 +14,7 @@ function draw() {
   ellipse(x,y,50,50);
   x = x + v;
 
-  if(x <= 0 ) {
+  if(x <= 0 || x>= 500) {
     v = v * -1;
   }
 }
